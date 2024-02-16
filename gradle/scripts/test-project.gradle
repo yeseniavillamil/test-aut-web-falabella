@@ -1,0 +1,5 @@
+
+defaultTasks 'clean','test','aggregate'
+
+//Continuar con el resto de pruebas, despues de cualquier caso fallido
+gradle.startParameter.continueOnFailure = true
